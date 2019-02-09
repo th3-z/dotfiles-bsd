@@ -9,6 +9,6 @@ xinput set-prop "/dev/wsmouse" "WS Pointer Wheel Emulation Axes" 6 7 4  5
 # xinput set-prop "/dev/wsmouse" "Device Accel Constant Deceleration" 0.4
 
 feh --bg-scale $HOME/.wallpaper.jpg &
-
+unclutter &
 exec i3
 
