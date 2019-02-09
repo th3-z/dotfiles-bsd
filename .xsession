@@ -8,7 +8,7 @@ xinput set-prop "/dev/wsmouse" "WS Pointer Wheel Emulation Axes" 6 7 4  5
 # Increases sensitivity
 # xinput set-prop "/dev/wsmouse" "Device Accel Constant Deceleration" 0.4
 
-feh --bg-scale $HOME/.wallpaper.jpg &
+feh --bg-scale $HOME/.wallpaper.png &
 unclutter &
 exec i3
 
