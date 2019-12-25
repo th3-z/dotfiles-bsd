@@ -5,7 +5,6 @@
 
 export GOPATH=$HOME/src/gocode
 export PATH=$HOME/bin:/bin:/sbin:/usr/bin:/usr/sbin:/usr/X12R6/bin:/usr/local/bin:/usr/local/sbin:/usr/games:$GOPATH/bin
-export ENV=$HOME/.kshrc
 
 export HOME TERM
 
