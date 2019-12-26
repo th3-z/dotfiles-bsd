@@ -5,7 +5,7 @@ xrdb -merge $HOME/.Xresources
 
 xsetroot -solid darkslateblue
 xsetroot -name "neptune.th3-z.xyz"
-xidle &
+# xidle &
 
 LANG=xcloxk -strftime "%a %e %b %Y %H:%M" &
 

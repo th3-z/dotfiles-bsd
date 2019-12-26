@@ -1,12 +1,13 @@
 # automatically add new windows to the current group
 sticky yes
 # snap windows to edges at 4 pixels distance
-snapdist 4
+# snapdist 4
 # leave a gap for xclock
-gap 0 14 0 0
+# gap 0 14 0 0
+moveamount 1
 
 # set font for menus
-fontname "fixed:pixelsize=13:style=semicondensed"
+# fontname "fixed:pixelsize=13:style=semicondensed"
 
 # remove all default keybindings
 unbind-key all
@@ -20,19 +21,19 @@ unbind-key all
 # mod + enter = new xterm
 bind-key 4-Return terminal
 # ctrl + alt + L = lock screen (xlock)
-bind-key CM-l lock
+bind-key 4-l lock
 # mod + backspace = hide window
-bind-key 4-BackSpace window-hide
+# bind-key 4-BackSpace window-hide
 
 # mod + down arrow = lower window's focus
 bind-key 4-Down window-lower
 # mod + up arrow = raise window's focus
 bind-key 4-Up window-raise
 # mod/alt + tab = cycle through current windows
-bind-key 4-Tab window-cycle
+# bind-key 4-Tab window-cycle
 bind-key M-Tab window-cycle
 # mod/alt + shift + tab = same thing in reverse
-bind-key 4S-Tab window-rcycle
+# bind-key 4S-Tab window-rcycle
 bind-key MS-Tab window-rcycle
 # mod + w = kill window
 bind-key 4-w window-delete
@@ -69,9 +70,9 @@ bind-key 4-g window-group
 
 # mod + right arrow = cycle through the window groups
 # (you can think of this as switching to the next virtual desktop)
-bind-key 4-Right group-cycle
+# bind-key 4-Right group-cycle
 # mod + left arrow = same thing in reverse
-bind-key 4-Left group-rcycle
+# bind-key 4-Left group-rcycle
 # mod + S = stick current window to be visible in all groups
 bind-key 4-s window-stick
 
@@ -133,10 +134,5 @@ bind-mouse 4S-2 window-hide
 
 # these commands will appear in the command menu
 command term  urxvt
-command chrome "chrome --enable-unveil"
-command xclock xclock
-command xcalc  xcalc
-
-# ignore these windows when tiling/cycling
-ignore xclock
+command firefox "firefox"
 

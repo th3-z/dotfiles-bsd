@@ -1,0 +1,4 @@
+#! /bin/bash
+
+grep --color -Irnw . -e $1
+
