@@ -19,6 +19,7 @@ alias ..="cd .."
 alias mkdir="mkdir -p"
 alias df="df -h"
 alias du="du -ch"
+alias feh="feh -F"
 
 # PS1
 function prompt_command {
