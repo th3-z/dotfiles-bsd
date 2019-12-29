@@ -8,3 +8,13 @@ export PATH=$HOME/bin:/bin:/sbin:/usr/bin:/usr/sbin:/usr/X12R6/bin:/usr/local/bi
 
 export HOME TERM
 
+RED='\033[0;31m'
+NC='\033[0m' # No Color
+
+figlet -f term -c "w e l c o m e  t o"
+echo $RED
+figlet -f lean -c "neptune" | tr ' _/' ' `z' | tail -n 7 | head -n 6
+echo -n $NC
+figlet -f term -c "@ t h 3 - z . x y z"
+echo ""
+

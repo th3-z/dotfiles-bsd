@@ -33,39 +33,40 @@ XTerm*loginShell: true
 URxvt*loginShell: true
 URxvt.scrollBar: fase
 
-*background: #1b1b1b
-*foreground: #bbbbbb
 
-!black
-*color0: #1b1b1b
-*color8: #5e5e5e
+! special
+*.foreground:   #bbbbbb
+*.background:   #050505
+*.cursorColor:  #bbbbbb
 
-!white
-*color7: #bbbbbb
-*color15: #efefef
+! black
+*.color0:       #050505
+*.color8:       #5e5e5e
 
-!red
-*color1: #eb4509
-*color9: #eb4509
+! red
+*.color1:       #ff1b1b
+*.color9:       #ff1b1b
 
-!green
-*color2: #94e76b
-*color10: #94e76b
+! green
+*.color2:       #910000
+*.color10:      #910000
 
-!blue
-*color4: #46aede
-*color12: #46aede
+! yellow
+*.color3:       #e34234
+*.color11:      #e34234
 
-!yellow
-*color3: #ffac18
-*color11: #ffac18
+! blue
+*.color4:       #ff0000
+*.color12:      #ff0000
 
-!magenta
-*color5: #e32c57
-*color13: #e32c57
+! magenta
+*.color5:       #e32c57
+*.color13:      #e32c57
 
-!cyan
-*color6: #d6dbac
-*color14: #d6dbac
+! cyan
+*.color6:       #5e5e5e
+*.color14:      #5e5e5e
 
-
+! white
+*.color7:       #bbbbbb
+*.color15:      #bbbbbb

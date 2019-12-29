@@ -1,3 +1,7 @@
+#
+# Keybindings
+#
+
 # 4 = mod (windows key)
 # S = shift
 # C = control
@@ -105,4 +109,22 @@ bind-key 4S-h window-resize-left-big
 bind-key 4S-j window-resize-down-big
 bind-key 4S-k window-resize-up-big
 bind-key 4S-l window-resize-right-big
+
+
+#
+# Colours
+#
+
+color activeborder "#910000"
+color inactiveborder "#5e5e5e"
+color urgencyborder "#ff0000"
+
+color groupborder "#ff00ff"
+color ungroupborder "#00ff00"
+
+color font "#910000"
+color selfont "#050505"
+color menubg "#050505"
+color menufg "#910000"
+
 

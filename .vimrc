@@ -14,3 +14,5 @@ set ruler                       " Adds row and col to the status bar
 
 set backspace=indent,eol,start  " Smart backspace behaviour
 
+set t_md=                       " Disable bold text
+
