@@ -14,6 +14,9 @@ xinput set-prop "/dev/wsmouse" "WS Pointer Wheel Emulation Axes" 6 7 4  5
 # Cursor colour - does not work right
 # xsetroot -cursor_name left_ptr -fg black -bg red
 
+# Start MPD
+mpd /home/the_z/.config/mpd/mpd.conf
+
 # Disable bell
 xset b off
 

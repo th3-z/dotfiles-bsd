@@ -1,0 +1,4 @@
+#! /bin/ksh
+
+mixerctl -t outputs.spkr_eapd
+
