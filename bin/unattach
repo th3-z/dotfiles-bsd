@@ -1,0 +1,5 @@
+#! /bin/ksh
+
+umount /home/the_z/music
+umount /home/the_z/videos
+

@@ -1,4 +1,4 @@
-#! /bin/bash
+#! /bin/ksh
 
-grep --color -Irnw . -e $1
+grep -Irnw . -e $1
 

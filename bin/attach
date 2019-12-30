@@ -1,0 +1,5 @@
+#! /bin/ksh
+
+sshfs the_z@saturn.th3-z.xyz:/media/the_z/data/music /home/the_z/music -o allow_other,IdentityFile=/home/the_z/.ssh/id_rsa
+sshfs the_z@saturn.th3-z.xyz:/media/the_z/data/videos /home/the_z/videos -o allow_other,IdentityFile=/home/the_z/.ssh/id_rsa
+
