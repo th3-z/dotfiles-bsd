@@ -20,3 +20,7 @@ if ! { [ "$TERM" = "screen" ] && [ -n "$TMUX" ]; } then
   echo ""
 fi
 
+live
+echo ""
+
+

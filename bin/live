@@ -1,0 +1,76 @@
+#! /bin/ksh
+
+RED='\033[0;31m'
+GREEN='\033[0;32m'
+NC='\033[0m' # No Color
+
+echo "Infrastructure status:"
+
+echo -n "    saturn.th3-z.xyz\t\t"
+ping -c1 saturn.th3-z.xyz 1>/dev/null 2>/dev/null
+SATURN_UP=$?
+if [ $SATURN_UP -eq 0 ]
+then
+  echo -n $GREEN
+  echo "$HOST [LIVE]"
+  echo -n $NC
+else
+  echo -n $RED
+  echo "$HOST [DEAD]"
+  echo -n $NC
+fi
+
+echo -n "    atlus.th3-z.xyz\t\t"
+ping -c1 atlus.th3-z.xyz 1>/dev/null 2>/dev/null
+ATLUS_UP=$?
+if [ $ATLUS_UP -eq 0 ]
+then
+  echo -n $GREEN
+  echo "$HOST [LIVE]"
+  echo -n $NC
+else
+  echo -n $RED
+  echo "$HOST [DEAD]"
+  echo -n $NC
+fi
+
+echo -n "    beta.th3-z.xyz\t\t"
+ping -c1 beta.th3-z.xyz 1>/dev/null 2>/dev/null
+BETA_UP=$?
+if [ $BETA_UP -eq 0 ]
+then
+  echo -n $GREEN
+  echo "$HOST [LIVE]"
+  echo -n $NC
+else
+  echo -n $RED
+  echo "$HOST [DEAD]"
+  echo -n $NC
+fi
+
+echo -n "    jupiter.th3-z.xyz\t\t"
+curl jupiter.th3-z.xyz 1>/dev/null 2>/dev/null
+JUPITER_UP=$?
+if [ $JUPITER_UP -eq 0 ]
+then
+  echo -n $GREEN
+  echo "$HOST [LIVE]"
+  echo -n $NC
+else
+  echo -n $RED
+  echo "$HOST [DEAD]"
+  echo -n $NC
+fi
+echo -n "    seanas.com\t\t\t"
+ping -c1 -w 0.5 seanas.com 1>/dev/null 2>/dev/null
+SEANAS_UP=$?
+if [ $SEANAS_UP -eq 0 ]
+then
+  echo -n $GREEN
+  echo "$HOST [LIVE]"
+  echo -n $NC
+else
+  echo -n $RED
+  echo "$HOST [DEAD]"
+  echo -n $NC
+fi
