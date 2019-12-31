@@ -3,7 +3,7 @@ set shiftwidth=4
 set softtabstop=4
 set expandtab
 
-set t_Co=256	                " 256 Colour mode
+" set t_Co=256	                " 256 Colour mode
 syntax on                       " Enable highlights
 
 set autoindent	                " Autoindent
